@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BookBox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🏏 BookBox</h1>
+</header>
+
+<!-- SLIDER -->
+<div class="slider">
+    <img id="slide" src="image1.jpg">
+</div>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Find Your Turf</h1>
+    <p>Cricket • Football • Badminton • Tennis • Pickleball</p>
+    <a href="turfs.html" class="btn">Find Turfs</a>
+</section>
+
+<!-- ABOUT -->
+<section class="section">
+    <h2>About Us</h2>
+    <p>
+        BookBox helps you find and book sports turfs easily.
+        Simple, fast and hassle-free experience.
+    </p>
+</section>
+
+<script>
+let images = [
+    "img1.jpg",
+    "img2.jpg",
+    "img3.jpg",
+    "img4.jpg",
+    "img5.jpg"
+];
+
+let index = 0;
+
+setInterval(() => {
+    index++;
+    if (index >= images.length) {
+        index = 0; // go back to first image
+    }
+
+    document.getElementById("slide").src = images[index];
+}, 5000);
+</script>
+
+</body>
+</html>

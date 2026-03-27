@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+header {
+    background: #0f9d58;
+    color: white;
+    padding: 15px 30px;
+}
+
+/* SLIDER */
+.slider {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+/* BUTTON */
+.btn {
+    background: #0f9d58;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* ABOUT */
+.section {
+    padding: 40px;
+    text-align: center;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+}
